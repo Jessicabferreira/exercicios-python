@@ -9,6 +9,7 @@ Codigo:
     \033[ 0;  33;  44m
         style text back
 
+
 style = estilo do texto
 0 none = sem estilo                  
 1 bold = negrito                
@@ -37,9 +38,14 @@ back = cor do fundo
 46 ciano
 47 cinza
 
+
 """
 
 print('\033[31mOlá, Mundo!\033[m')  # Text vermelho
 print('\033[33;45mOlá, Mundo!\033[m')  # fundo magenta
 print('\033[7;33;44mOlá, Mundo!\033[m') # fundo amarelo, letra azul
 print('\033[7;30mOlá, Mundo!\033[m') # fundo preto, letra cinza
+
+""" Outra forma de usar cores"""
+nome = 'Jessica'
+print('Olá! Muito prazer em te conhecer, {}{}{}!!'.format('\033[4;34m', nome, '\033[m')) # nome colorido
