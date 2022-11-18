@@ -11,3 +11,4 @@ print('Está em minúsculas? ', a.islower())
 print('Está capitalizada? ', a.istitle())
 
 
+
