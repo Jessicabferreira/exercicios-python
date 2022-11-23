@@ -47,5 +47,5 @@ print('\033[7;33;44mOlá, Mundo!\033[m') # fundo amarelo, letra azul
 print('\033[7;30mOlá, Mundo!\033[m') # fundo preto, letra cinza
 
 """ Outra forma de usar cores"""
-nome = 'Jessica'
+nome = input('Qual é o seu nome? ')
 print('Olá! Muito prazer em te conhecer, {}{}{}!!'.format('\033[4;34m', nome, '\033[m')) # nome colorido
