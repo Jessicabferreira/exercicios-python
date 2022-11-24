@@ -17,4 +17,3 @@ if b > a and b > c:
     maior = b
 print('O menor valor digitado foi {}'.format(menor))
 print('O maior valor digitado foi {}'.format(maior))
-
