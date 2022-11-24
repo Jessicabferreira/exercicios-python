@@ -4,6 +4,7 @@ leia o nome dos quatros alunos e mostre a ordem sorteada.
 """
 
 from random import shuffle
+
 n1 = input('Primeiro aluno: ')
 n2 = input('Segundo aluno: ')
 n3 = input('Terceiro aluno: ')
