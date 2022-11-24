@@ -9,4 +9,3 @@ if velocidade > 80:
     multa = (velocidade-80) * 7
     print('Você deve pagar uma multa de R${:.2f}!'.format(multa))
 print('Tenha um bom dia! Dirija com segurança!')
-
