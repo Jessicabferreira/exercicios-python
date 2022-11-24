@@ -4,6 +4,7 @@ descobrir qual foi o número escolhido pelo computador. O programa deverá escre
 """
 from random import randint  # Gerar números aleatorios
 from time import sleep  # Faz o computador esperar
+
 computador = randint(0, 5)  # Faz o computador "PENSAR/SORTEAR"
 print('-=-' * 20)
 print('Vou pensar em um número entre 0 e 5. Tente adivinhar...')
