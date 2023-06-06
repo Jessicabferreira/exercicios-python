@@ -1,6 +1,6 @@
-"""Crie um programa qu eleia uma frase qualquer e diga se ela é um polindromo, desconsiderando os espaços.
+"""Crie um programa qu eleia uma frase qualquer e diga se ela é um políndromo, desconsiderando os espaços.
 
-Exemplos de palindromos:
+Exemplos de palíndromos:
 
 apos a sopa
 a sacada da casa
@@ -9,6 +9,11 @@ o lobo ama o bolo
 anotaram a data da maratona
 """
 frase = str(input('Digite uma frase: ')).strip().upper()
-palavra = frase.split()
-junto = "*".join(palavras)
-print("Você digitou a frase {}".format(palavras))
+palavras = frase.split()
+junto = "".join(palavras)
+inverso = junto[::-1]
+print("O inverso de {} é {}".format(junto, inverso))
+if inverso == junto:
+    print("Temos um palíndromo!")
+else:
+    print("A frase digitada não é um palíndromo!")
