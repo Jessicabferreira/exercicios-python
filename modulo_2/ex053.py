@@ -1,4 +1,4 @@
-"""Crie um programa qu eleia uma frase qualquer e diga se ela é um políndromo, desconsiderando os espaços.
+"""Crie um programa que leia uma frase qualquer e diga se ela é um políndromo, desconsiderando os espaços.
 
 Exemplos de palíndromos:
 
