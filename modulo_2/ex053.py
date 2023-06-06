@@ -8,3 +8,7 @@ a torre da derrota
 o lobo ama o bolo
 anotaram a data da maratona
 """
+frase = str(input('Digite uma frase: ')).strip().upper()
+palavra = frase.split()
+junto = "*".join(palavras)
+print("Você digitou a frase {}".format(palavras))
