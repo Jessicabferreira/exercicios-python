@@ -52,3 +52,4 @@ elif computador == 2:  # computador jogou TESOURA
         print('EMPATE')
     else:
         print('JOGADA INVÁLIDA')
+        
