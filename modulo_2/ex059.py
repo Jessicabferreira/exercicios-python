@@ -6,8 +6,19 @@
 
 [ 3 ] maior
 
-[ 4 ] novos números
+[ 4 ] novos números  
 
 [ 5 ] sair do programa
 
 Seu programa deverá realizar a operação solicitada em cada caso."""
+
+n1 = int(input("Primeiro valor: "))
+n2 = int(input("Segudo valor: "))
+
+print('''[1] somar
+      [2] multiplicar
+      [3] maior
+      [4] novos números
+      [5] sair do programa''')
+opção = str(input("Qual é a sua opção? "))
+
