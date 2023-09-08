@@ -10,4 +10,4 @@ while True:
     for c in range(1, 11):
         print(f'{n} x {c} = {n*c}')
     print('-' * 30)
-print('PROGRAMA TABUADA ENCERRADO. Volte sempre!')
+print('PROGRAMA ENCERRADO. Volte sempre!')
