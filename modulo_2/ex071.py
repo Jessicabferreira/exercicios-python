@@ -29,3 +29,5 @@ while True:
         totcéd = 0
         if total == 0:
             break
+print('=' * 30)
+print('Volte sempre ao BANCO CEV! Tenha um bom dia!')
