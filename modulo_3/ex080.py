@@ -19,3 +19,5 @@ for c in range(0, 5):
             pos += 1
 print('-=' * 30)
 print(f'Os valores digitados em ordem foram {lista}')
+
+
