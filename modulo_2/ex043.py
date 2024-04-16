@@ -29,3 +29,4 @@ elif 30 <= imc < 40:
     print('Você está com OBESIDADE!')
 else:
     print('Você está em OBSIDADE MÓRBIDA, cuidado!')
+    
